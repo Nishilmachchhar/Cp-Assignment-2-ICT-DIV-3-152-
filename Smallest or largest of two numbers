@@ -1,0 +1,33 @@
+#include<stdio.h>
+
+int main()
+{
+    int x;
+    int y;
+
+    printf("Enter the value of x :");
+    scanf("%d", &x);
+
+    printf("Enter the value of y :");
+    scanf("%d", &y);
+
+    if(x<= y)
+    {
+     printf("x is the smallest.\n");
+     }
+     else
+     {
+        printf("y is the smallest.\n");
+      }
+if( x >= y )
+{   
+      printf("x is the largest value.\n")
+}
+ 
+else
+{
+    printf("y is the largest value.\n")
+}
+return 0;
+
+}
